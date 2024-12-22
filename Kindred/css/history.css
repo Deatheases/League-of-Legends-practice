@@ -1,0 +1,572 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/File/SF-Pro-Display-Light.otf");
+    }
+
+main{ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1600px;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 200px;
+}
+
+main h1 { 
+    top: 80px;
+    position: absolute;
+    font-family: 'STEEL_NM_OTF';
+    font-size: 48px;
+    background: radial-gradient(49.15% 49.15% at 50% 50.85%, #FFEAB3 0%, #8A794E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: an;
+}
+
+.strelo4ku_history{
+    top: 100px;
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.biografy_ahri { 
+    position: relative;
+    width: 90%;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #FFDAA4;
+}
+
+.biografy_ahri img { 
+    width: 100%;
+    object-fit: unset;
+    transition: 0.4s;
+    filter: brightness(70%);
+}
+
+.biografy_ahri:hover img{ 
+    transform: scale(1.1);
+    filter: brightness(40%);
+}
+
+.biografy_ahri_chapter_1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografy_ahri_chapter_1 p1 { 
+    position: absolute;
+    top: 15px;
+
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'STEEL_NM_OTF';
+    background: linear-gradient(171.2deg, #FFE9A9 -19.58%, #B47E3E 99.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_1 p2 { 
+    position: absolute;
+    top: 60px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 48px;
+    font-weight: 400;
+
+    background: linear-gradient(171.2deg, #DCAA5C -19.58%, #FCDEB0 99.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_1 p3 { 
+    position: absolute;
+    top: 120px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.biografy_ahri_chapter_1 p4 { 
+    position: absolute;
+    top: 120px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri:hover p1{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p2{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p3{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p4{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri:hover input{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri input { 
+    position: absolute;
+    box-sizing: border-box;
+    top: 260px;
+    width: 336px;
+    height: 62px;
+    background: rgba(53, 53, 53, 0.71);
+    border: 1px solid #FFE49E;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s;
+
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 233, 208, 0.78);
+}
+
+.biografy_ahri_chapter_2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografy_ahri_chapter_2 p1 { 
+    position: absolute;
+    width: 241px;
+    height: 37px;
+    top: 10px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #EBE0BF;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_2 p2 { 
+    position: absolute;
+    width: 485px;
+    height: 132px;
+    top: 45px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 33px;
+    line-height: 35px;
+    text-align: center;
+
+    background: linear-gradient(171.2deg, #DCAA5C -19.58%, #FCDEB0 99.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+.biografy_ahri_chapter_2 p3 { 
+    position: absolute;
+    top: 90px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri:hover p1{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p2{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p3{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri:hover input{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri input { 
+    position: absolute;
+    box-sizing: border-box;
+    top: 260px;
+    width: 336px;
+    height: 62px;
+    background: rgba(53, 53, 53, 0.71);
+    border: 1px solid #FFE49E;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s;
+
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 233, 208, 0.78);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.biografy_ahri_chapter_3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biografy_ahri_chapter_3 p1 { 
+    position: absolute;
+    width: 241px;
+    height: 37px;
+    top: 10px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #EBE0BF;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_3 p2 { 
+    position: absolute;
+    width: 485px;
+    height: 132px;
+    top: 45px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 33px;
+    line-height: 35px;
+    text-align: center;
+
+    background: linear-gradient(171.2deg, #DCAA5C -19.58%, #FCDEB0 99.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_3 p3 { 
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.biografy_ahri_chapter_3 p4 { 
+    position: absolute;
+    top: 140px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 26px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri:hover p1{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p2{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p3{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p4{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri:hover input{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+
+
+
+.biografy_ahri input { 
+    position: absolute;
+    box-sizing: border-box;
+    top: 260px;
+    width: 336px;
+    height: 62px;
+    background: rgba(53, 53, 53, 0.71);
+    border: 1px solid #FFE49E;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s;
+
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 233, 208, 0.78);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.biografy_ahri_chapter_4 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.biografy_ahri_chapter_4 p1 { 
+    position: absolute;
+    width: 241px;
+    height: 37px;
+    top: 10px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #EBE0BF;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_4 p2 { 
+    position: absolute;
+    width: 485px;
+    height: 132px;
+    top: 45px;
+
+    font-family: 'STEEL_NM_OTF';
+    font-size: 33px;
+    line-height: 35px;
+    text-align: center;
+
+    background: linear-gradient(171.2deg, #DCAA5C -19.58%, #FCDEB0 99.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri_chapter_4 p3 { 
+    position: absolute;
+    top: 90px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+
+.biografy_ahri_chapter_4 p4 { 
+    position: absolute;
+    top: 140px;
+    width: 600px;
+    font-family: 'SF Pro Display';
+    font-size: 26px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFEBD8;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.biografy_ahri:hover p1{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p2{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+.biografy_ahri:hover p3{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri:hover input{ 
+    transform: opacity(1.1);
+    opacity: 1;
+}
+
+
+.biografy_ahri input { 
+    position: absolute;
+    box-sizing: border-box;
+    top: 260px;
+    width: 336px;
+    height: 62px;
+    background: rgba(53, 53, 53, 0.71);
+    border: 1px solid #FFE49E;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: 0.4s;
+
+    font-family: 'SF Pro Display';
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 233, 208, 0.78);
+}

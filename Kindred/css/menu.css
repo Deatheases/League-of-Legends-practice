@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+body::-webkit-scrollbar {
+    width: 10px;
+    opacity: 0;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000000;
+    border: 1px solid rgba(255, 218, 164,0.6);
+  }
+  
+  bdoy::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+  }
+
+body {
+    background-color: #000408;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+header {  /* Меню навигации */
+    width: 100%;
+    height: 70px;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header li { 
+    list-style: none;
+}
+
+header ul { 
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 35px;
+    font-size: 20px;
+}
+
+.login{ /* кнопка логина */
+    position: absolute;
+    display: flex;
+    gap: 23px;
+    right: 50px;
+}
+
+.login input { /* кнопка логина */
+    width: 110px;
+    height: 45px;
+    background: #0BC4E2;
+    border-radius: 10px;
+
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+ 
+.ahri_art{  /*  Фон ари */
+    width: 100%;
+}
